@@ -1,0 +1,9 @@
+timestamp: 2019-09-12T18:56:29.038000
+CREATE TABLE "users"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "db_name" CHAR(512),
+    "db_email" CHAR(512),
+    "db_phone" CHAR(512),
+    "db_message" CHAR(512)
+);
+success!

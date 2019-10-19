@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="{{=URL('static','css/contactstyle.css')}}"/>
+</head>
+<body>
+    <div class="container">
+        <div class="contact-box">
+            <div class="left"></div>
+            <div class="right">
+                <h2>Contact Us</h2>
+                <form action="{{=URL('store')}}" method="post">
+                    <input type="text" class="field" name="name" placeholder="Your Name" required>
+                    <input type="email" class="field" name="email" placeholder="Your Email" required>
+                    <input type="text" class="field" name="phone" placeholder="Your Phone" required>
+                    <textarea name="message" class="field area" placeholder="Message"></textarea>
+                    <input type="submit" name="submit" class="btn">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
